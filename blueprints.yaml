@@ -1,0 +1,29 @@
+name: Shortcode Media
+version: 1.0.0
+description: "A variety of media related shortcodes"
+icon: code
+author:
+  name: Team Grav
+  email: devs@getgrav.org
+  url: http://getgrav.org
+homepage: https://github.com/getgrav/grav-plugin-shortcode-media
+keywords: shortcodes, slideshare
+bugs: https://github.com/getgrav/grav-plugin-shortcode-media/issues
+license: MIT
+
+dependencies:
+  - shortcode-core
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin Enabled
+      highlight: 1
+      default: 1
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool

@@ -27,3 +27,24 @@ form:
         0: Disabled
       validate:
         type: bool
+
+    google_viewer:
+      type: toggle
+      label: Google Viewer
+      highlight: 0
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+
+    width:
+      type: text
+      label: Width
+      default: 640px
+
+    height:
+      type: text
+      label: Height
+      default: 480px

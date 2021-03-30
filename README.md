@@ -30,7 +30,7 @@ This plugin provides a variety of plugins, each with a specific purpose:
 
 #### SlideShare
 
-An example of the Tabs shortcode is as follows:
+An example of the SlideShare shortcode is as follows:
 
 ```
 [slideshare id="58575464"]

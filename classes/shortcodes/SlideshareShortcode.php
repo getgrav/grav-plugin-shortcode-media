@@ -11,7 +11,7 @@ class SlideshareShortcode extends Shortcode
     {
         $this->shortcode->getHandlers()->add('slideshare', function(ShortcodeInterface $sc) {
 
-            $output = $this->twig->processTemplate('partials/media-slideshare.html.twig', [
+            $output = $this->twig->processTemplate('shortcodes/media-slideshare.html.twig', [
                 'id'        => $sc->getParameter('id'),
                 'align'     => $sc->getParameter('align', 'left'),
                 'width'     => $sc->getParameter('width', 597),

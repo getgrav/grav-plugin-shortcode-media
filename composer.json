@@ -1,0 +1,30 @@
+{
+    "name": "getgrav/shortcode-media",
+    "type": "grav-plugin",
+    "description": "Shortcode Media plugin for Grav CMS",
+    "keywords": ["shortcode"],
+    "homepage": "https://github.com/getgrav/grav-plugin-shortcode-media/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Team Grav",
+            "email": "devs@getgrav.org",
+            "homepage": "http://getgrav.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Grav\\Plugin\\Shortcodes\\": "classes/shortcodes"
+        },
+        "classmap":  ["shortcode-media.php"]
+    },
+    "config": {
+        "platform": {
+            "php": "7.1.3"
+        }
+    }
+}

@@ -1,5 +1,6 @@
 enabled: true
-google_viewer: true
+google_viewer: false
+
 
 
 

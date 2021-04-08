@@ -29,7 +29,10 @@ class IframeShortcode extends Shortcode
                 $use_google = $sc->getParameter('google', $google_default);
                 $url = $sc->getParameter('url', $sc->getBbCode());
                 $page_media = $this->grav['page']->media();
-                $url = $page_media[$url]->url() ?? $url;
+
+                if (isset($page_media[$url])) {
+                    $url = $page_media[$url]->url();
+                }
 
                 if ($use_google) {
                     $url = 'https://docs.google.com/gview?url='.Utils::url($url, true).'&embedded=true';

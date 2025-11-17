@@ -1,3 +1,9 @@
+# v1.1.0
+## 11/17/2025
+
+1. [](#new)
+    * Added **Editor Pro** integration for the IFrame, PDF/DocViewer, and SlideShare shortcodes
+
 # v1.0.0
 ## 04/08/2021
 

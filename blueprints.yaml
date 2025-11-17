@@ -1,7 +1,7 @@
 name: Shortcode Media
 type: plugin
 slug: shortcode-media
-version: 1.0.0
+version: 1.1.0
 description: "A variety of media related shortcodes"
 icon: code
 author:
